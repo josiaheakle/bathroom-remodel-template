@@ -1,0 +1,124 @@
+/* == desktop == */
+
+.Nav {
+	align-self: center;
+	z-index: 10;
+}
+
+.NavList {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+
+.NavListItem {
+	padding: 0 0.5rem 0 0.5rem;
+}
+
+.NavLink {
+	color: var(--light-color);
+	font-size: var(--h5);
+	text-decoration: none;
+}
+
+.NavLink:hover,
+:focus-visible {
+	text-decoration: underline;
+}
+
+/* == mobile == */
+
+.MobileNav {
+	display: flex;
+	align-items: center;
+}
+
+.MobileNavList.NavOpen {
+	transform: translateX(100%);
+}
+
+.MobileNavList {
+	z-index: -15;
+	position: fixed;
+	list-style: none;
+	padding-inline-start: 0;
+	margin-block-start: 0;
+	margin-block-end: 0;
+	height: calc(100vh - var(--header-height));
+	padding-top: var(--header-height);
+	width: 100vw;
+	top: 0;
+	left: -100vw;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	background-color: var(--primary-color);
+	transition: transform var(--anim-length);
+}
+
+.MobileNavListItem {
+	padding: 0 0.5rem 0 0.5rem;
+}
+
+.MobileNavLink {
+	text-decoration: none;
+	font-size: 1.25rem;
+	color: var(--light-color);
+}
+
+.MobileNavButton {
+	outline: none;
+	border-radius: 0.5rem;
+	padding: 0.25rem;
+	background-color: transparent;
+	transition: background-color var(--anim-length);
+}
+
+.MobileNavButton:hover,
+.MobileNavButton:focus-visible {
+	background-color: var(--contrast-color);
+}
+
+.MobileNavButton.NavOpen > .MobileNavButtonMiddle {
+	opacity: 0;
+}
+
+.MobileNavButton.NavOpen > .MobileNavButtonTop {
+	transform: translateY(0.5rem) rotate(45deg);
+}
+
+.MobileNavButton.NavOpen > .MobileNavButtonBottom {
+	transform: translateY(-0.5rem) rotate(-45deg);
+}
+
+.MobileNavButton {
+	z-index: 120;
+	cursor: pointer;
+}
+
+.MobileNavButtonMiddle,
+.MobileNavButtonTop,
+.MobileNavButtonBottom {
+	transition: all var(--anim-length);
+	width: 1.5rem;
+	height: 0.25rem;
+	border-radius: 0.25rem;
+	margin: 0.25rem;
+	background-color: var(--light-color);
+}
+
+.ActiveLink {
+	color: var(--contrast-color);
+}
+
+.ContactInfoContainer {
+	position: absolute;
+	bottom: 2rem;
+}

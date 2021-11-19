@@ -1,0 +1,158 @@
+{
+    "title": "bathroom remodel",
+    "contact": {
+        "phoneNumber" : "+1 (123) 456-7890",
+        "email" : "",
+        "address" : {
+            "street" : "123 asdf Way #123",
+            "city" : "asdf",
+            "state" : "st",
+            "zip" : "12345"
+        },
+        "facebook": "https://www.asdf.com",
+        "youtube": "https://www.asdf.com"
+        
+    },
+    "siteData": {
+        "url": "https://www.asdf.com",
+        "title": "bathroom Remodel",
+        "subtitle": "Home Renovation Solutions from Flooring to Roofing",
+        "description": "The best and most affordable home remodeling service in Hendersonville, TN. We offer kitchen, bathroom, basement and garage renovation, as well as roofing and siding replacment and much more!",
+        "image": {
+            "src": "icons/icon.png",
+            "alt": "Hendersonville Home Remodel Logo"
+        },
+        "icon": {
+            "src": "icons/icon.png",
+            "alt": "Hendersonville Home Remodel - renovation solutions from flooring to roofing"
+        },
+        "pages": [
+            {
+                "title": "Home",
+                "page": "/",
+                "linkElemId" : "Home" 
+            },
+            {
+                "title": "About",
+                "page": "/about",
+                "linkElemId" : "About" 
+            },
+            {
+                "title": "Services",
+                "page": "/services",
+                "linkElemId" : "Services" 
+            },
+            {
+                "title": "Location",
+                "page": "/location",
+                "linkElemId": "Location"
+            },
+            {
+                "title": "Contact",
+                "page": "/contact",
+                "linkElemId" : "Contact" 
+            }
+        ]
+    },
+    "hero" : {
+        "title": "#1 Bathroom Renovation in {COUNTY, STATE}",
+        "subtitle": "Ready for the perfect bathroom?",
+        "image": {
+            "src" : "",
+            "alt" : ""
+        }
+    },
+    "about" : {
+        "title": "#1 Hendersonville Home Remodling",
+        "subtitle": "Best Home Remodeling near Nashville TN",
+        "summary": ["{BUSINESS NAME}, located in {CITY, STATE}, seamlessly executes your bathroom renovation dreams. Our goal is to create a worry-free experience for our customers, providing them with the best bathroom remodel services in {CITY, STATE}. We strive to offer top class bathroom renovation solutions at an affordable price. Our experienced staff offers a variety of bathroom refinishing and remodeling services including: bathroom refacing,bathroom remodeling, bathtub installation or replacement, bathtub liner and shower surround installation, shower door installation or replacement, toilet replacement, and much more!" , "Need help in a service we don’t have listed, give us a call! We offer a wide array of services and are excited to help. Maybe you are looking for porcelain tile for your standalone shower? Or ceramic tile, maybe stone for your shower surround? With access to the knowledge and tools needed, we are the bathroom contractors you are looking for."],
+        "additionalText": [
+            "Our mission is to show we value each client and their bathroom renovation needs through our full respect and attention, from start to finish. We strive to cultivate a lasting relationship with each customer, in order to provide a lifetime of top quality bathroom contractor services. "
+        ],
+        "image": {
+            "src": "about.jpg",
+            "alt": "..."
+        }
+    },
+    "services": {
+        "title": "Our Services",
+        "subtitle": "See What We Offer",
+        "services" : [
+            {
+                "title": "Bathroom Remodeling",
+                "altTitles": ["Bathroom Renovation"],
+                "summary": [
+                    "Where is the first place you go in the morning? What about the last place you go before bed? Your bathroom is your safe space, let us transform your bathroom into a safe haven. With our knowledge of the latest materials and techniques, your bathroom will be the perfect place to start and end each and every day..",
+                    "Your tub and toilet are important steps to updating your bathroom. Maybe you’re looking for a cast iron tub, or porcelain tile for your bathtub? You may need a dual flush toilet, a bidet or a rounded bowl for a smaller space. ", 
+                    "Next is your flooring. Our knowledge of the best flooring types for bathrooms will be crucial for your new bathroom. Your new floors could be porcelain or ceramic tile, maybe you want vinyl flooring but cannot decide on sheet, plank, tile, natural stone, engineered wood or laminate flooring.",
+                    "Finally we finish with your countertops and cabinets. Our experience with the best countertop materials, such as laminate, ceramic/porcelain tile, solid-surface, natural stone, concrete, crushed glass, or quartz is sure to bring you exactly what you need."
+                ],
+                "additionalText": [""],
+                "slugs": ["bathroom-remodeling", "bathroom-renovation"],
+                "image": {
+                    "src": "bathroom.jpg",
+                    "alt": "Beautiful white bathroom. Bathroom renovation Hendersonville Home Remodel.",
+                    "title": "Beautiful white bathroom."
+                }
+            },{
+                "title": "Kitchen Remodeling",
+                "summary": [
+                    "The kitchen is the central hub to your home, be sure it is comfortable and welcoming. Our knowledge of space utilization can transform a cluttered kitchen into an open and comfortable space.",
+                    "Cabinets are the first thing anyone sees when they walk into your kitchen, we make sure to make it count. We have worked with just about all materials: melamine, polyester, solid wood, wood veneers, medium-density fiberboard, high gloss thermofoil, high pressure laminate and whatever else you could think of.", 
+                    "The countertops are equally as important. Just like cabinets, we have probably worked with any material you could think of. A few examples would be granite, soapstone, marble, quartz (engineered stone), solid-surface material, ceramic tile, laminates, wood or butcher block, stainless steel, and concrete.", 
+                    "Another vital aspect to your new kitchen is the sink. We are excited to help you find what you need. Whether that be a top-mount, undermount, single, double, or even triple basin! Additionally we are experienced with apron sinks, farmhouse sinks, and drainboard sinks. ",
+                    "Last is your floor. Are you looking for hardwood? Maybe bamboo or ceramic tile? Concrete or natural stone tile? You may want durable linoleum or vinyl. Whatever your needs, we will transform your kitchen into a perfect space for get togethers and home diners. "
+                ],
+                "additionalText": [""],
+                "slugs": ["kitchen-remodeling"]
+            },{
+                "title": "Room Addition",
+                "summary": [
+                    "Need more space? A new room can be a big undertaking, make sure you choose the right team for the job. Our team of experts are deeply knowledgeable and experienced in home additions. "
+                ],
+                "additionalText": [""],
+                "slugs": ["room-addition"]
+            },{
+                "title": "New Home Construction",
+                "summary": [
+                    "Looking to build your dream home? A new construction is a massive undertaking, the right team decides whether this will be quick and painless or prolonged and miserable. This team will do everything you need with care and diligence.",
+                    "Starting with flooring, what type are you looking for? Are you looking for carpet? Does it need to be waterproof or stain-resistant? Do you need a design or a solid color? Maybe you want hardwood with area rugs? Whatever your needs we can find the perfect fit.",
+                    "From there we can design each room according to its needs. Maybe you want wallpaper, or a wet bar installed. You may need a mud room or dual ovens, whatever your needs, we are excited to create your new home. "
+                ],
+                "additionalText": [""],
+                "slugs": ["new-home-construction"]
+            },{
+                "title": "Basement and Garage Renovation",
+                "summary": ["Basements and garages are notorious for having issues with water leaks and damage. We have seen it all and know the perfect solution for you. From mold removal, garage and basement waterproofing, and finishing basements from floor to ceiling, we can accomplish what you need."],
+                "additionalText": [""],
+                "slugs": ["home-remodeling"]
+            }
+        ]
+    },
+    "location": {
+        "title": "The Best Home Contractors in Hendersonville, TN",
+        "subtitle": "Home Contractors Near Me",
+        "city": "Hendersonville",
+        "state": "TN",
+        "summary": [
+            "Hendersonville Home Remodel was obviously founded by a group of people who love Hendersonville and Sumner County! There are many things we love to do here including going to the Memory Gardens, the Historic Rock Castle, Trinity Music City and much more. Every season is gorgeous here, swimming in the lakes during the summer, and watching the world bloom in springtime. But being based in Tennessee, fall is THE season to be admired here. With yellow-orange leaves and a beautiful view of the mountains, we love to call this place our home!"
+        ],
+        "additionalText": ["Why use Hendersonville Home Remodel? Our professional Hendersonville Home, Kitchen and Bathroom renovators and contractors offer services across Sumner County, TN including Gallatin, Goodlettsville, Millersville, Mitchellville, Portland, and White House. Whatever your construction, renovation or home addition needs, we are your team of Hendersonville Home Contractors."]
+    },
+    "attributions" : [
+        {
+            "link": "https://pixabay.com/",
+            "title": "Pixabay",
+            "authors": [
+                {
+                    "link": "https://pixabay.com/users/jarmoluk-143740/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2094733",
+                    "name": "Michal Jarmoluk"
+                },                 {
+                    "link": "https://pixabay.com/users/midascode-2412635/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1336165",
+                    "name": "Barry D"
+                }
+            ]
+        }
+    ]
+    
+}

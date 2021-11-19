@@ -1,0 +1,109 @@
+.Header {
+	z-index: 100;
+	width: 84vw;
+	height: calc(var(--header-height) - 2rem);
+
+	padding: 1rem 8vw 1rem 8vw;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	background-color: var(--primary-color);
+	color: var(--light-color);
+
+	backdrop-filter: blur(0.5rem);
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	transition: height var(--anim-length), transform var(--anim-length);
+}
+
+.large.Header {
+	height: calc(var(--header-height) + 4rem);
+}
+
+.Header.MobileHidden {
+	transform: translateY(-100%);
+}
+
+.HeadingContainer {
+	display: flex;
+	flex-direction: row;
+	color: var(--light-color);
+	text-decoration: none;
+}
+
+.HeadingIcon {
+	transition: padding var(--anim-length);
+	max-height: 8rem;
+	height: inherit;
+	width: auto;
+	padding: 0.25rem;
+}
+
+.large.Header .HeadingIcon {
+	padding: 1rem;
+}
+
+.large.Header .TitleContainer {
+	justify-content: center;
+}
+
+.TitleContainer {
+	height: 100%;
+	margin-left: 1rem;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+}
+
+.Title,
+.Subtitle {
+	margin: 0;
+	font-family: var(--header-font);
+	/* font-weight: bold; */
+	font-size: var(--h4);
+	padding-right: 1rem;
+	color: var(--contrast-color);
+}
+.Subtitle {
+	color: var(--light-color);
+
+	font-size: var(--small-font-size);
+	font-size: 1rem;
+	transition: opacity var(--anim-length), height var(--anim-length);
+}
+
+.small.Header .Subtitle {
+	opacity: 0;
+	height: 0;
+}
+
+.NavContainer {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 1rem;
+}
+
+.NavContainer.hidden {
+	/* flex-direction: row; */
+	justify-content: center;
+}
+
+.Phone {
+	text-decoration: none;
+	color: inherit;
+}
+
+@media only screen and (max-width: 64rem) {
+	.HeadingContainer {
+		padding-right: 0;
+	}
+}

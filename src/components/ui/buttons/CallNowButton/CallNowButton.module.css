@@ -1,0 +1,21 @@
+.Button {
+	font-size: var(--h4);
+	min-width: 11rem;
+	max-height: 4rem;
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	justify-content: center;
+	margin: 0.5rem;
+}
+
+.CallNowBanner {
+	width: 100vw;
+	padding: 1rem 0;
+	color: var(--light-color);
+	font-size: var(--h5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--primary-color);
+}

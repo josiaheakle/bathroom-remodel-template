@@ -1,0 +1,67 @@
+.BgImage {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100vw;
+	min-height: 100vh;
+	z-index: -10;
+}
+
+.BgContainer {
+	z-index: -9;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 10rem;
+}
+
+.ServiceCard {
+	width: 70vw;
+	padding: 2rem;
+	margin-top: 4rem;
+	background-color: var(--transparent-color);
+	backdrop-filter: blur(0.5rem);
+	border-radius: var(--border-radius);
+	color: var(--light-color);
+}
+
+.Title {
+	color: var(--contrast-color);
+}
+
+.Summary,
+.AdditionalText {
+	color: var(--dark-color);
+}
+
+.BackLink {
+	position: absolute;
+	left: 0;
+	top: -5rem;
+	background-color: var(--transparent-color);
+	border-radius: calc(var(--border-radius) * 0.5);
+	padding: 0.5rem;
+	color: var(--dark-color);
+	text-decoration: none;
+	display: flex;
+	flex-direction: row;
+	font-size: var(--h5);
+	font-family: var(--header-font);
+	/* font-weight: bold; */
+	transition: font-size var(--anim-length);
+}
+
+.BackArrow {
+	transform: rotate(90deg);
+	fill: var(--contrast-color);
+	padding: 1rem;
+}
+
+.BackLink:hover,
+.BackLink:focus-visible {
+	text-decoration: underline;
+	font-size: 1.5rem;
+}

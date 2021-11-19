@@ -1,0 +1,31 @@
+.ContactInfo {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	transition: opacity var(--anim-length), height var(--anim-length);
+	/* text-align: start; */
+}
+
+.ContactInfo a {
+	padding-right: 2rem;
+	color: inherit;
+	text-decoration: none;
+}
+
+.ContactInfo.hidden {
+	opacity: 0;
+	height: 0;
+}
+
+.ContactIcon {
+	width: 1rem;
+	padding-right: 1rem;
+}
+
+.Phone,
+.AddressContainer {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

@@ -1,0 +1,41 @@
+.Button {
+	font-size: var(--h5);
+	cursor: pointer;
+}
+
+.Button:hover > .Link .Title {
+	transform: scale(110%);
+}
+
+.Button:hover > .Link .DownArrow {
+	transform: translateY(0.5rem) scale(125%);
+}
+
+.Link {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Title {
+	transition: transform var(--anim-length);
+}
+
+.DownArrow {
+	fill: var(--contrast-color);
+
+	transition: transform var(--anim-length);
+
+	height: 3rem;
+	width: 3rem;
+}
+
+@media only screen and (max-width: 64rem) {
+	.Button {
+		font-size: 1rem;
+	}
+	.DownArrow {
+		height: 2rem;
+		width: 2rem;
+	}
+}

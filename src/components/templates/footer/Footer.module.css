@@ -1,0 +1,81 @@
+.Footer {
+	width: calc(100vw - 4rem);
+	min-height: 4rem;
+	padding: 1rem 2rem 1rem 2rem;
+	display: grid;
+	grid-template-rows: auto auto auto;
+	grid-template-columns: 50% 50%;
+	align-items: end;
+	background-color: var(--primary-color);
+	position: relative;
+	bottom: 0;
+	color: var(--light-color);
+}
+
+.Footer span {
+	padding-bottom: 1rem;
+}
+
+.SocialLinks {
+	text-align: right;
+}
+
+.SocialLinks img {
+	padding: 0.5rem;
+	width: auto;
+	max-width: 3rem;
+	height: 2.5rem;
+	transition: transform var(--anim-length);
+}
+
+.SocialLinks img:hover,
+.SocialLinks img:focus-visible {
+	transform: scale(1.2);
+}
+
+.Sitemap {
+	grid-column: 1/3;
+	justify-self: center;
+	text-align: start;
+}
+
+.CallButton {
+	grid-column: 1/3;
+	justify-self: center;
+	margin-bottom: 1rem;
+}
+
+.PrivatePolicy {
+	text-align: center;
+}
+
+.PrivatePolicy a {
+	padding: 0 0.5rem;
+}
+
+.PrivatePolicy .left {
+	padding-left: 0;
+	/* border-right: 1px solid var(--contrast-color); */
+}
+
+.PrivatePolicy .right {
+	padding-right: 0;
+	/* border-left: 1px solid var(--contrast-color); */
+}
+
+@media only screen and (max-width: 64rem) {
+	.Sitemap {
+		align-self: center;
+	}
+
+	.Footer {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.Footer span {
+		text-align: center;
+		align-self: center;
+	}
+}

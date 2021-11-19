@@ -1,0 +1,78 @@
+.Services {
+	background-color: var(--light-color);
+	padding: 4rem 0 4rem 0;
+	text-align: center;
+	width: 100vw;
+	/* color: var(--light-color); */
+}
+
+.ServicesContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	margin: 0 10vw 0 10vw;
+}
+
+.Title {
+	margin-top: 0;
+	font-size: var(--h1);
+	color: var(--contrast-color);
+}
+
+.Subtitle {
+	margin-bottom: 0;
+	font-size: var(--h5);
+}
+
+.Service {
+	background-color: var(--primary-color);
+	width: 60vw;
+	height: fit-content;
+	text-align: left;
+	/* border-radius: 1rem; */
+	border-radius: var(--border-radius);
+
+	display: flex;
+	flex-direction: column;
+
+	justify-content: space-between;
+	color: var(--dark-color);
+
+	padding: 1rem;
+	margin: 2rem 1rem;
+	/* margin: 2rem 20vw 2rem 1rem; */
+}
+
+/* .Service.rightAlign {
+	margin: 2rem 1rem 2rem 20vw;
+
+	text-align: right;
+} */
+
+.ServiceTitle {
+	color: var(--light-color);
+}
+
+.ServiceSubtitle {
+}
+
+.ServiceDescription {
+	color: var(--light-color);
+}
+
+.ServiceImage {
+}
+
+.ReadMore {
+	/* justify-self: flex-end; */
+}
+
+@media only screen and (max-width: 64rem) {
+	.ServicesContainer {
+		/* display: flex;
+		flex-direction: column; */
+		margin: 0 20vw 0 20vw;
+	}
+}

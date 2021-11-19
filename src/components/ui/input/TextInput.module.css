@@ -1,0 +1,69 @@
+.Container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	margin: 0.5rem 0 0.5rem 0;
+}
+
+.InputContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	height: 100%;
+}
+
+.Label {
+	pointer-events: none;
+
+	z-index: 1;
+	height: 0px;
+
+	position: relative;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-align: left;
+	bottom: -0.75rem;
+	cursor: unset;
+	transition: bottom 0.2s ease-out, font-size 0.2s, color;
+
+	color: var(--dark-color);
+}
+
+.Label.focused {
+	bottom: -2px;
+	font-size: 0.6rem;
+}
+
+.Input {
+	/* width: 10rem; */
+	max-width: 12rem;
+	/* border-radius: 0.75rem; */
+	border-radius: calc(var(--border-radius) * 0.75);
+	font-family: var(--body-font);
+	height: 28px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	border: 1px solid var(--contrast-color);
+	outline: none;
+	background-color: var(--light-color);
+	color: var(--contrast-color);
+
+	transition: transform var(--anim-length);
+	font-size: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 0px;
+}
+
+textarea.Input {
+	resize: none;
+	padding-top: 1rem;
+	/* width: 24rem; */
+	resize: vertical;
+
+	height: 100%;
+	min-height: 5rem;
+	max-height: 15rem;
+}
