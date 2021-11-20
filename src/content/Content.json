@@ -14,17 +14,17 @@
         
     },
     "siteData": {
-        "url": "https://www.asdf.com",
-        "title": "bathroom Remodel",
-        "subtitle": "Home Renovation Solutions from Flooring to Roofing",
-        "description": "The best and most affordable home remodeling service in Hendersonville, TN. We offer kitchen, bathroom, basement and garage renovation, as well as roofing and siding replacment and much more!",
+        "url": "https://www.{URL}.com",
+        "title": "Bathroom Remodel",
+        "subtitle": "Bathroom Renovation Solutions from Flooring to Roofing",
+        "description": "The best and most affordable bathroom remodeling service in {CITY, ST}. We offer bathtub resurfacing, full bathroom remodeling, bathtub installation, shower door installation, shower surround installation and much more! Contact us at {PHONE} to get started!",
         "image": {
             "src": "icons/icon.png",
-            "alt": "Hendersonville Home Remodel Logo"
+            "alt": "{Business Name} Logo"
         },
         "icon": {
             "src": "icons/icon.png",
-            "alt": "Hendersonville Home Remodel - renovation solutions from flooring to roofing"
+            "alt": "{Business Name} - renovation solutions from flooring to roofing"
         },
         "pages": [
             {
@@ -63,77 +63,76 @@
         }
     },
     "about" : {
-        "title": "#1 Hendersonville Home Remodling",
-        "subtitle": "Best Home Remodeling near Nashville TN",
+        "title": "#1 {CITY} Bathroom Remodling",
+        "subtitle": "Best Home Remodeling in All of {COUNTY} TN",
         "summary": ["{BUSINESS NAME}, located in {CITY, STATE}, seamlessly executes your bathroom renovation dreams. Our goal is to create a worry-free experience for our customers, providing them with the best bathroom remodel services in {CITY, STATE}. We strive to offer top class bathroom renovation solutions at an affordable price. Our experienced staff offers a variety of bathroom refinishing and remodeling services including: bathroom refacing,bathroom remodeling, bathtub installation or replacement, bathtub liner and shower surround installation, shower door installation or replacement, toilet replacement, and much more!" , "Need help in a service we don’t have listed, give us a call! We offer a wide array of services and are excited to help. Maybe you are looking for porcelain tile for your standalone shower? Or ceramic tile, maybe stone for your shower surround? With access to the knowledge and tools needed, we are the bathroom contractors you are looking for."],
         "additionalText": [
             "Our mission is to show we value each client and their bathroom renovation needs through our full respect and attention, from start to finish. We strive to cultivate a lasting relationship with each customer, in order to provide a lifetime of top quality bathroom contractor services. "
-        ],
-        "image": {
-            "src": "about.jpg",
-            "alt": "..."
-        }
+        ]
     },
     "services": {
-        "title": "Our Services",
-        "subtitle": "See What We Offer",
+        "title": "Our Bathroom Remodel Solutions",
+        "subtitle": "From Tub Resurfacing to Shower Surround Installations, We've Got You Covered!",
         "services" : [
             {
-                "title": "Bathroom Remodeling",
-                "altTitles": ["Bathroom Renovation"],
+                "title": "Bathtub Refacing",
+                "altTitles": ["Bathtub Refinishing"],
                 "summary": [
-                    "Where is the first place you go in the morning? What about the last place you go before bed? Your bathroom is your safe space, let us transform your bathroom into a safe haven. With our knowledge of the latest materials and techniques, your bathroom will be the perfect place to start and end each and every day..",
-                    "Your tub and toilet are important steps to updating your bathroom. Maybe you’re looking for a cast iron tub, or porcelain tile for your bathtub? You may need a dual flush toilet, a bidet or a rounded bowl for a smaller space. ", 
-                    "Next is your flooring. Our knowledge of the best flooring types for bathrooms will be crucial for your new bathroom. Your new floors could be porcelain or ceramic tile, maybe you want vinyl flooring but cannot decide on sheet, plank, tile, natural stone, engineered wood or laminate flooring.",
-                    "Finally we finish with your countertops and cabinets. Our experience with the best countertop materials, such as laminate, ceramic/porcelain tile, solid-surface, natural stone, concrete, crushed glass, or quartz is sure to bring you exactly what you need."
+                    "Dingy bathtub or cabinets? Need a solution to a chipping or discolored bathtub? We got you covered. If you need a tub refinished or replaced, we have worked with just about every material available, from plastic and cast-polymer to enameled steel and cast-iron. You may need your bathroom cabinets replaced or repaired. Our knowledge of plywood, solid wood, and other bathroom cabinet materials like medium density fiberboard is proven to transcend all your bathroom refacing projects. From full bathroom renovation to tub resurfacing, we can do it all. "
                 ],
                 "additionalText": [""],
-                "slugs": ["bathroom-remodeling", "bathroom-renovation"],
+                "slugs": ["bathtub-refacing", "bathtub-refinishing"],
                 "image": {
                     "src": "bathroom.jpg",
-                    "alt": "Beautiful white bathroom. Bathroom renovation Hendersonville Home Remodel.",
+                    "alt": "Beautiful white bathroom. Bathroom renovation {Business Title}.",
                     "title": "Beautiful white bathroom."
                 }
             },{
-                "title": "Kitchen Remodeling",
+                "title": "Bathroom Remodeling",
+                "altTitles": ["Bathroom Renovation"],
                 "summary": [
-                    "The kitchen is the central hub to your home, be sure it is comfortable and welcoming. Our knowledge of space utilization can transform a cluttered kitchen into an open and comfortable space.",
-                    "Cabinets are the first thing anyone sees when they walk into your kitchen, we make sure to make it count. We have worked with just about all materials: melamine, polyester, solid wood, wood veneers, medium-density fiberboard, high gloss thermofoil, high pressure laminate and whatever else you could think of.", 
-                    "The countertops are equally as important. Just like cabinets, we have probably worked with any material you could think of. A few examples would be granite, soapstone, marble, quartz (engineered stone), solid-surface material, ceramic tile, laminates, wood or butcher block, stainless steel, and concrete.", 
-                    "Another vital aspect to your new kitchen is the sink. We are excited to help you find what you need. Whether that be a top-mount, undermount, single, double, or even triple basin! Additionally we are experienced with apron sinks, farmhouse sinks, and drainboard sinks. ",
-                    "Last is your floor. Are you looking for hardwood? Maybe bamboo or ceramic tile? Concrete or natural stone tile? You may want durable linoleum or vinyl. Whatever your needs, we will transform your kitchen into a perfect space for get togethers and home diners. "
+                    "Your bathroom is the first and last place you find yourself in each and every day. It is your safe space. Let us transform your bathroom into a safe haven.",
+                    "Your tub and toilet are important steps to updating your bathroom. What type of bathtub do you need? Cast-iron bathtub? Maybe an enameled steel bathtub? We make sure to handle your toilet according to your needs, whether you need a dual-flush, elongated seat or a bidet. If you are looking for a custom shower surround, we do that too!", 
+                    "If you are looking to update your flooring, our expertise will prove vital. Perhaps you want ceramic tile or porcelain, you may need vinyl flooring but cannot decide on plank, sheet, natural stone, tile, engineered wood or laminate flooring.", 
+                    "We finish with the countertops and cabinets. Our experience with the best countertop materials, such as laminate, ceramic/porcelain tile, solid-surface, natural stone, concrete, crushed glass, or quartz is sure to be exactly what you need. ", 
+                    "With our knowledge of the latest tools and techniques, your bathroom is sure to be perfect."
                 ],
                 "additionalText": [""],
-                "slugs": ["kitchen-remodeling"]
+                "slugs": ["bathroom-remodel", "bathroom-renovation"]
             },{
-                "title": "Room Addition",
+                "title": "Bathtub Installation",
+                "altTitles": ["Bathtub Replacement"],
                 "summary": [
-                    "Need more space? A new room can be a big undertaking, make sure you choose the right team for the job. Our team of experts are deeply knowledgeable and experienced in home additions. "
+                    "Your bathtub is the centerpiece of your bathroom, be sure it stands out and is comfortable. Let us hear your needs and, using our expertise, help you find the perfect fit for your bathtub needs.  "
                 ],
                 "additionalText": [""],
-                "slugs": ["room-addition"]
+                "slugs": ["bathtub-installation", "bathtub-replacement"]
             },{
-                "title": "New Home Construction",
+                "title": "Shower Surround Installation",
+                "altTitles": ["Bathtub Liner Installation"],
                 "summary": [
-                    "Looking to build your dream home? A new construction is a massive undertaking, the right team decides whether this will be quick and painless or prolonged and miserable. This team will do everything you need with care and diligence.",
-                    "Starting with flooring, what type are you looking for? Are you looking for carpet? Does it need to be waterproof or stain-resistant? Do you need a design or a solid color? Maybe you want hardwood with area rugs? Whatever your needs we can find the perfect fit.",
-                    "From there we can design each room according to its needs. Maybe you want wallpaper, or a wet bar installed. You may need a mud room or dual ovens, whatever your needs, we are excited to create your new home. "
+                    ""
                 ],
                 "additionalText": [""],
-                "slugs": ["new-home-construction"]
+                "slugs": ["shower-surround-installation", "bathtub-liner-installation"]
             },{
-                "title": "Basement and Garage Renovation",
-                "summary": ["Basements and garages are notorious for having issues with water leaks and damage. We have seen it all and know the perfect solution for you. From mold removal, garage and basement waterproofing, and finishing basements from floor to ceiling, we can accomplish what you need."],
+                "title": "Shower Door Installation",
+                "altTitles": ["Shower Door Replacement"],
+                "summary": [""],
                 "additionalText": [""],
-                "slugs": ["home-remodeling"]
+                "slugs": ["shower-door-installation", "shower-door-replacement"]
             }
         ]
     },
     "location": {
-        "title": "The Best Home Contractors in Hendersonville, TN",
-        "subtitle": "Home Contractors Near Me",
-        "city": "Hendersonville",
-        "state": "TN",
+        "title": "The Best Bathroom Contractors in {Location}",
+        "subtitle": "Bathroom Contractors Near Me",
+        "city": "{CITY}",
+        "cityPages": [{
+            "city": "{CITY}",
+            "slug": "{city-slug}"
+        }], 
+        "state": "{STATE}",
         "summary": [
             "Hendersonville Home Remodel was obviously founded by a group of people who love Hendersonville and Sumner County! There are many things we love to do here including going to the Memory Gardens, the Historic Rock Castle, Trinity Music City and much more. Every season is gorgeous here, swimming in the lakes during the summer, and watching the world bloom in springtime. But being based in Tennessee, fall is THE season to be admired here. With yellow-orange leaves and a beautiful view of the mountains, we love to call this place our home!"
         ],
